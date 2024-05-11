@@ -113,13 +113,13 @@ let newTransaction = {
     date: '11:05:2024',
     category: 'Нашел бабушкин кошелек',
     amount: 80,
-    description: 'Очень счастлив, бабушка ничего и не заметила'
+    description: 'Очень счастлив, бабушка ничего не заметила'
 }
 
 let newTransaction1 = {
     id: '3',
     date: '13:05:2024',
-    category: 'Пкупка',
+    category: 'Покупка',
     amount: -40,
     description: 'Купил пельмени в Фидеско'
 }
@@ -127,7 +127,7 @@ let newTransaction1 = {
 let newTransaction2 = {
     id: '4',
     date: '09:05:2024',
-    category: 'Вернули долго',
+    category: 'Вернули долг',
     amount: 600,
     description: 'Свои долги можно и простить'
 }
