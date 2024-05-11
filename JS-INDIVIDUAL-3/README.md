@@ -131,7 +131,7 @@ Object.values(transaction).forEach(value  => {
 let  part  =  document.createElement('td')
 part.textContent  =  value
 row.append(part)
-});
+})
 ```
 Сначала для каждой транзакции создаю ее собственную строку. Далее использую метод `Object.values` для извлечения свойств каждого объекта из массива. Затем создаю переменную part, которая является ячейкой и для каждого свойства создаю такую новую ячейку. Затем при помощи метода `textContent` я вставляю в ячейку текст моего свойства. `row.append(part)` вставляет все свойства одной транзакции в строку.
 ```js
@@ -156,7 +156,7 @@ for (let  i  =  0; i  <  transactions.length; i++) {
 let  element  =  transactions[i]
 if (element.id  ===  id) {
 transactions.splice(i, 1)
-break;
+break
 		}
 	}
 }
@@ -183,7 +183,7 @@ for (let  i  =  0; i  <  transactions.length; i++) {
 const  amount  =  transactions[i].amount
 total  +=  amount
 }
-return  total;
+return  total
 }
 function  updateAmount() {
 const  total  =  calculateTotal()
